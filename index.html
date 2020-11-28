@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CARS PARTS SHOP</title>
+<!-- css and bootstrap-->
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
+
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="scripts/main.js" defer></script>
+
+
+<!-- Fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Pacifico&family=Righteous&family=Rowdies&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" >
+    <a href=""><i class="fa fa-facebook">&nbsp;&nbsp;</i></a>
+    <a href=""><i class="fa fa-twitter">&nbsp;&nbsp;</i></a>
+    <a href=""><i class="fa fa-linkedin">&nbsp;&nbsp;</i></a>
+    <a href=""><i class="fa fa-google-plus">&nbsp;&nbsp;</i></a>
+    <a href=""><i class="fa fa-youtube"></i></a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul  class="navbar-nav ml-auto ">
+        <li class="nav-item">
+            <a href=""><i class="fa fa-shopping-cart"></i>Cart &nbsp;&nbsp;</a>
+            <a href="">Sign Up&nbsp;&nbsp;</a>
+            <a href="">Log In</a>
+
+        </li>
+      </ul>
+    
+    
+  </div>
+  </nav> 
+
+<!-- Bootstrap navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href=""><span class="logo">SHOP</span>SPOT</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Search
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Compare
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="">Action</a>
+                <a class="dropdown-item" href="">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Reviews
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="">Action</a>
+                <a class="dropdown-item" href="">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Services
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="">Action</a>
+                <a class="dropdown-item" href="">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="">Something else here</a>
+              </div>
+            </li> 
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Pages
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="">Action</a>
+                <a class="dropdown-item" href="">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="">Something else here</a>
+              </div>
+            </li> 
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Users
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="">Action</a>
+                <a class="dropdown-item" href="">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="">Something else here</a>
+              </div>
+            </li> 
+          </ul>
+        </div>
+      </nav> 
+<!-- Header -->
+       <div class="img1">
+        <p style="text-align: right;">
+          <span class="text1">BEST SHOP FOR CAR PARTS</span><br>
+          <span class="text2">EVERYTHING YOU WANT</span><br>
+          <span class="text3" >We always provide our best service to our clients and always 
+           try to achieve<br> our clients trust and satisfaction.</span>
+          <a href="" class="shop"></a><button class="text5">SHOP NOW <i class="fa fa-arrow-circle-o-right"></i>
+          </button></a></p>
+
+      </div>
+      <br><br>
+      <div class="sect1">
+      <p class="car" style="text-align: center;">Car <span class="logo">Accessories</span></p>
+      <hr class="hr1" style="margin-left: 45% ; margin-right: 45% ;">
+      <hr class="hr2" style="margin-left: 46% ; margin-right: 46%; ">
+      
+      <p class="moto" style="text-align: center; margin-right: 30%; margin-left: 30%;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum aspernatur incidunt quasi ?</p>
+     
+<!--PRODUCTS-->
+
+
+<section class="new-products">
+  <div class="container">
+   
+   <div class="row">
+   <div class="col-md-3">
+   <div class="product-top">
+       <a href=""><img src="images/product1.png"></a> 
+       <div class="overlay-right">
+       <button type="button" class="btn btn-secondary" title="Quick Shop">
+          <i class="fa fa-eye"></i> 
+       </button>
+       <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+          <i class="fa fa-heart-o"></i> 
+       </button>
+           <button type="button" class="btn btn-secondary" title="Add to Cart">
+          <i class="fa fa-shopping-cart"></i> 
+       </button>
+       </div>
+   </div>
+   <div class="product-bottom text-center">
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star-half-o"></i>  
+       <h3>ENGINE</h3>
+       <h5>$40.00</h5>
+   </div>
+   </div>
+       
+   <div class="col-md-3">
+   <div class="product-top">
+       <a href=""><img src="images/product2.png"></a> 
+       <div class="overlay-right">
+       <button type="button" class="btn btn-secondary" title="Quick Shop">
+          <i class="fa fa-eye"></i> 
+       </button>
+       <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+          <i class="fa fa-heart-o"></i> 
+       </button>
+           <button type="button" class="btn btn-secondary" title="Add to Cart">
+          <i class="fa fa-shopping-cart"></i> 
+       </button>
+       </div>
+   </div>
+   <div class="product-bottom text-center">
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+       <h3>COOLER</h3>
+       <h5>$50.00</h5>
+   </div>
+   </div>
+       
+   <div class="col-md-3">
+   <div class="product-top">
+       <a href=""><img src="images/product3.png"></a> 
+       <div class="overlay-right">
+       <button type="button" class="btn btn-secondary" title="Quick Shop">
+          <i class="fa fa-eye"></i> 
+       </button>
+       <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+          <i class="fa fa-heart-o"></i> 
+       </button>
+           <button type="button" class="btn btn-secondary" title="Add to Cart">
+          <i class="fa fa-shopping-cart"></i> 
+       </button>
+       </div>
+   </div>
+   <div class="product-bottom text-center">
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+       <h3>PIPES</h3>
+       <h5>$500.00</h5>
+   </div>
+   </div>
+    
+   <div class="col-md-3">
+   <div class="product-top">
+       <a href=""><img src="images/product4.png"></a> 
+       <div class="overlay-right">
+       <button type="button" class="btn btn-secondary" title="Quick Shop">
+          <i class="fa fa-eye"></i> 
+       </button>
+       <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+          <i class="fa fa-heart-o"></i> 
+       </button>
+           <button type="button" class="btn btn-secondary" title="Add to Cart">
+          <i class="fa fa-shopping-cart"></i> 
+       </button>
+       </div>
+   </div>
+   <div class="product-bottom text-center">
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star-half-o"></i>  
+     <i class="fa fa-star-o"></i>  
+       <h3>GEARS</h3>
+       <h5>$300.00</h5>
+   </div>
+   </div> 
+       
+   <div class="col-md-3">
+   <div class="product-top">
+       <a href=""><img src="images/product1.png"></a> 
+       <div class="overlay-right">
+       <button type="button" class="btn btn-secondary" title="Quick Shop">
+          <i class="fa fa-eye"></i> 
+       </button>
+       <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+          <i class="fa fa-heart-o"></i> 
+       </button>
+           <button type="button" class="btn btn-secondary" title="Add to Cart">
+          <i class="fa fa-shopping-cart"></i> 
+       </button>
+       </div>
+   </div>
+   <div class="product-bottom text-center">
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star-half-o"></i>  
+       <h3>ENGINE</h3>
+       <h5>$40.00</h5>
+   </div>
+   </div>
+       
+   <div class="col-md-3">
+   <div class="product-top">
+       <a href=""><img src="images/product2.png"></a> 
+       <div class="overlay-right">
+       <button type="button" class="btn btn-secondary" title="Quick Shop">
+          <i class="fa fa-eye"></i> 
+       </button>
+       <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+          <i class="fa fa-heart-o"></i> 
+       </button>
+           <button type="button" class="btn btn-secondary" title="Add to Cart">
+          <i class="fa fa-shopping-cart"></i> 
+       </button>
+       </div>
+   </div>
+   <div class="product-bottom text-center">
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+       <h3>COOLER</h3>
+       <h5>$50.00</h5>
+   </div>
+   </div>
+       
+   <div class="col-md-3">
+   <div class="product-top">
+       <a href=""><img src="images/product3.png"></a> 
+       <div class="overlay-right">
+       <button type="button" class="btn btn-secondary" title="Quick Shop">
+          <i class="fa fa-eye"></i> 
+       </button>
+       <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+          <i class="fa fa-heart-o"></i> 
+       </button>
+           <button type="button" class="btn btn-secondary" title="Add to Cart">
+          <i class="fa fa-shopping-cart"></i> 
+       </button>
+       </div>
+   </div>
+   <div class="product-bottom text-center">
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+       <h3>PIPES</h3>
+       <h5>$500.00</h5>
+   </div>
+   </div>
+    
+   <div class="col-md-3">
+   <div class="product-top">
+       <a href=""><img src="images/product4.png"></a> 
+       <div class="overlay-right">
+       <button type="button" class="btn btn-secondary" title="Quick Shop">
+          <i class="fa fa-eye"></i> 
+       </button>
+       <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+          <i class="fa fa-heart-o"></i> 
+       </button>
+           <button type="button" class="btn btn-secondary" title="Add to Cart">
+          <i class="fa fa-shopping-cart"></i> 
+       </button>
+       </div>
+   </div>
+   <div class="product-bottom text-center">
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star"></i>  
+     <i class="fa fa-star-half-o"></i>  
+     <i class="fa fa-star-o"></i>  
+       <h3>GEARS</h3>
+       <h5>$300.00</h5>
+   </div>
+   </div>
+  </div>
+   
+</div>
+</section></div>  
+
+<!---- Site Highlights ---->
+   <section class="site-highlights">
+     
+     <div class="i-left"><i class="fa fa-car"></i></div>
+     <div class="i-mid1"><i class="fa fa-wrench"></i></div>
+     <div class="i-mid2"><i class="fa fa-heartbeat"></i></div>
+     <div class="i-right"><i class="fa fa-globe"></i></div>
+
+     <div class="n-left">1238</div>
+     <div class="n-mid1">885</div>
+     <div class="n-mid2">1000</div>
+     <div class="n-right">999</div>
+
+     <div class="t-left">Total <span class="logo">Accessories</span></div>
+     <div class="t-mid1">Spare <span class="logo">Parts</span></div>
+     <div class="t-mid2">Happy <span class="logo">User</span></div>
+     <div class="t-right">Expert <span class="logo">Worker</span></div>
+   </section>
+<br>
+<br>
+ <!-- TABS -->
+ <div class="tabContainer">
+  <div class="buttonContainer">
+      <button type="button" class="toggle-butn" onclick="showPanel(0,'#f44336')">Car Decoration</button>
+      <button type="button" class="toggle-butn" onclick="showPanel(1,'#4caf50')">Modification</button>
+      <button type="button" class="toggle-butn" onclick="showPanel(2,'#2196f3')">Spare Parts</button>
+  </div>
+  <!-- BUTTONS --> 
+  <section class="buttons-part">
+    <div class="part-box">
+   <div class="button-box" >
+     <div id="butn" ></div>
+       <button  type="button" class="toggle-butn" onclick="showPanel(0,'#f44336'); but1()" >Car Decoration</button>
+       <button type="button" class="toggle-butn" onclick="showPanel(1,'#4caf50') ; but2()">Modification</button>
+       <button  type="button" class="toggle-butn" onclick="showPanel(2,'#2196f3'); but3()">Spare Parts</button>
+     </div>
+
+
+
+<div id="but1" class="tabPanel"> 
+     <div id="row1" class="row">
+    <div class="col-md-3">
+    <div class="productstop">
+    <img src="images/product1.png">
+    <div class="overlayright">
+      <button type="button" class="btn btn-secondary" title="Quick Shop">
+        <i class="fa fa-eye"></i> 
+     </button>
+     <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+        <i class="fa fa-heart-o"></i> 
+     </button>
+         <button type="button" class="btn btn-secondary" title="Add to Cart">
+        <i class="fa fa-shopping-cart"></i> 
+     </button>
+    </div>
+    </div>
+    <div class="productsbottom text-center">
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star-half-o"></i>  
+      <i class="fa fa-star-o"></i>  
+        <h3>GEARS1</h3>
+        <h5>$300.00</h5>
+    </div>
+    </div>
+     
+    <div class="col-md-3">
+      <div class="productstop">
+      <img src="images/product1.png">
+      <div class="overlayright">
+        <button type="button" class="btn btn-secondary" title="Quick Shop">
+          <i class="fa fa-eye"></i> 
+       </button>
+       <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+          <i class="fa fa-heart-o"></i> 
+       </button>
+           <button type="button" class="btn btn-secondary" title="Add to Cart">
+          <i class="fa fa-shopping-cart"></i> 
+       </button>
+      </div>
+      </div>
+      <div class="productsbottom text-center">
+        <i class="fa fa-star"></i>  
+        <i class="fa fa-star"></i>  
+        <i class="fa fa-star"></i>  
+        <i class="fa fa-star-half-o"></i>  
+        <i class="fa fa-star-o"></i>  
+          <h3>GEARS2</h3>
+          <h5>$300.00</h5>
+      </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="productstop">
+        <img src="images/product1.png">
+        <div class="overlayright">
+          <button type="button" class="btn btn-secondary" title="Quick Shop">
+            <i class="fa fa-eye"></i> 
+         </button>
+         <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+            <i class="fa fa-heart-o"></i> 
+         </button>
+             <button type="button" class="btn btn-secondary" title="Add to Cart">
+            <i class="fa fa-shopping-cart"></i> 
+         </button>
+        </div>
+        </div>
+        <div class="productsbottom text-center">
+          <i class="fa fa-star"></i>  
+          <i class="fa fa-star"></i>  
+          <i class="fa fa-star"></i>  
+          <i class="fa fa-star-half-o"></i>  
+          <i class="fa fa-star-o"></i>  
+            <h3>GEARS3</h3>
+            <h5>$300.00</h5>
+        </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="productstop">
+          <img src="images/product1.png">
+          <div class="overlayright">
+            <button type="button" class="btn btn-secondary" title="Quick Shop">
+              <i class="fa fa-eye"></i> 
+           </button>
+           <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+              <i class="fa fa-heart-o"></i> 
+           </button>
+               <button type="button" class="btn btn-secondary" title="Add to Cart">
+              <i class="fa fa-shopping-cart"></i> 
+           </button>
+          </div>
+          </div>
+          <div class="productsbottom text-center">
+            <i class="fa fa-star"></i>  
+            <i class="fa fa-star"></i>  
+            <i class="fa fa-star"></i>  
+            <i class="fa fa-star-half-o"></i>  
+            <i class="fa fa-star-o"></i>  
+              <h3>GEARS4</h3>
+              <h5>$300.00</h5>
+          </div>
+          </div>
+</div></div>
+
+<div id="but2" class="tabPanel">
+    <div id="row2" class="row">
+    <div class="col-md-3">
+    <div class="productstop">
+    <img src="images/product2.png">
+    <div class="overlayright">
+      <button type="button" class="btn btn-secondary" title="Quick Shop">
+        <i class="fa fa-eye"></i> 
+     </button>
+     <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+        <i class="fa fa-heart-o"></i> 
+     </button>
+         <button type="button" class="btn btn-secondary" title="Add to Cart">
+        <i class="fa fa-shopping-cart"></i> 
+     </button>
+    </div>
+    </div>
+    <div class="productsbottom text-center">
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star-half-o"></i>  
+      <i class="fa fa-star-o"></i>  
+        <h3>mod1</h3>
+        <h5>$300.00</h5>
+    </div>
+    </div>
+     
+    <div class="col-md-3">
+      <div class="productstop">
+      <img src="images/product2.png">
+      <div class="overlayright">
+        <button type="button" class="btn btn-secondary" title="Quick Shop">
+          <i class="fa fa-eye"></i> 
+       </button>
+       <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+          <i class="fa fa-heart-o"></i> 
+       </button>
+           <button type="button" class="btn btn-secondary" title="Add to Cart">
+          <i class="fa fa-shopping-cart"></i> 
+       </button>
+      </div>
+      </div>
+      <div class="productsbottom text-center">
+        <i class="fa fa-star"></i>  
+        <i class="fa fa-star"></i>  
+        <i class="fa fa-star"></i>  
+        <i class="fa fa-star-half-o"></i>  
+        <i class="fa fa-star-o"></i>  
+          <h3>mod2</h3>
+          <h5>$300.00</h5>
+      </div>
+      </div>
+  
+      <div class="col-md-3">
+        <div class="productstop">
+        <img src="images/product2.png">
+        <div class="overlayright">
+          <button type="button" class="btn btn-secondary" title="Quick Shop">
+            <i class="fa fa-eye"></i> 
+         </button>
+         <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+            <i class="fa fa-heart-o"></i> 
+         </button>
+             <button type="button" class="btn btn-secondary" title="Add to Cart">
+            <i class="fa fa-shopping-cart"></i> 
+         </button>
+        </div>
+        </div>
+        <div class="productsbottom text-center">
+          <i class="fa fa-star"></i>  
+          <i class="fa fa-star"></i>  
+          <i class="fa fa-star"></i>  
+          <i class="fa fa-star-half-o"></i>  
+          <i class="fa fa-star-o"></i>  
+            <h3>mod3</h3>
+            <h5>$300.00</h5>
+        </div>
+        </div>
+  
+        <div class="col-md-3">
+          <div class="productstop">
+          <img src="images/product2.png">
+          <div class="overlayright">
+            <button type="button" class="btn btn-secondary" title="Quick Shop">
+              <i class="fa fa-eye"></i> 
+           </button>
+           <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+              <i class="fa fa-heart-o"></i> 
+           </button>
+               <button type="button" class="btn btn-secondary" title="Add to Cart">
+              <i class="fa fa-shopping-cart"></i> 
+           </button>
+          </div>
+          </div>
+          <div class="productsbottom text-center">
+            <i class="fa fa-star"></i>  
+            <i class="fa fa-star"></i>  
+            <i class="fa fa-star"></i>  
+            <i class="fa fa-star-half-o"></i>  
+            <i class="fa fa-star-o"></i>  
+              <h3>mod4</h3>
+              <h5>$300.00</h5>
+          </div>
+          </div>
+  </div></div>
+
+<div id="but3" class="tabPanel">
+    <div id="row3" class="row">
+        <div class="col-md-3">
+        <div class="productstop">
+        <img src="images/product4.png">
+        <div class="overlayright">
+          <button type="button" class="btn btn-secondary" title="Quick Shop">
+            <i class="fa fa-eye"></i> 
+         </button>
+         <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+            <i class="fa fa-heart-o"></i> 
+         </button>
+             <button type="button" class="btn btn-secondary" title="Add to Cart">
+            <i class="fa fa-shopping-cart"></i> 
+         </button>
+        </div>
+        </div>
+        <div class="productsbottom text-center">
+          <i class="fa fa-star"></i>  
+          <i class="fa fa-star"></i>  
+          <i class="fa fa-star"></i>  
+          <i class="fa fa-star-half-o"></i>  
+          <i class="fa fa-star-o"></i>  
+            <h3>spare1</h3>
+            <h5>$300.00</h5>
+        </div>
+        </div>
+         
+        <div class="col-md-3">
+          <div class="productstop">
+          <img src="images/product4.png">
+          <div class="overlayright">
+            <button type="button" class="btn btn-secondary" title="Quick Shop">
+              <i class="fa fa-eye"></i> 
+           </button>
+           <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+              <i class="fa fa-heart-o"></i> 
+           </button>
+               <button type="button" class="btn btn-secondary" title="Add to Cart">
+              <i class="fa fa-shopping-cart"></i> 
+           </button>
+          </div>
+          </div>
+          <div class="productsbottom text-center">
+            <i class="fa fa-star"></i>  
+            <i class="fa fa-star"></i>  
+            <i class="fa fa-star"></i>  
+            <i class="fa fa-star-half-o"></i>  
+            <i class="fa fa-star-o"></i>  
+              <h3>spare2</h3>
+              <h5>$300.00</h5>
+          </div>
+          </div>
+      
+          <div class="col-md-3">
+            <div class="productstop">
+            <img src="images/product4.png">
+            <div class="overlayright">
+              <button type="button" class="btn btn-secondary" title="Quick Shop">
+                <i class="fa fa-eye"></i> 
+             </button>
+             <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                <i class="fa fa-heart-o"></i> 
+             </button>
+                 <button type="button" class="btn btn-secondary" title="Add to Cart">
+                <i class="fa fa-shopping-cart"></i> 
+             </button>
+            </div>
+            </div>
+            <div class="productsbottom text-center">
+              <i class="fa fa-star"></i>  
+              <i class="fa fa-star"></i>  
+              <i class="fa fa-star"></i>  
+              <i class="fa fa-star-half-o"></i>  
+              <i class="fa fa-star-o"></i>  
+                <h3>spare3</h3>
+                <h5>$300.00</h5>
+            </div>
+            </div>
+      
+            <div class="col-md-3">
+              <div class="productstop">
+              <img src="images/product4.png">
+              <div class="overlayright">
+                <button type="button" class="btn btn-secondary" title="Quick Shop">
+                  <i class="fa fa-eye"></i> 
+               </button>
+               <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                  <i class="fa fa-heart-o"></i> 
+               </button>
+                   <button type="button" class="btn btn-secondary" title="Add to Cart">
+                  <i class="fa fa-shopping-cart"></i> 
+               </button>
+              </div>
+              </div>
+              <div class="productsbottom text-center">
+                <i class="fa fa-star"></i>  
+                <i class="fa fa-star"></i>  
+                <i class="fa fa-star"></i>  
+                <i class="fa fa-star-half-o"></i>  
+                <i class="fa fa-star-o"></i>  
+                  <h3>spare4</h3>
+                  <h5>$300.00</h5>
+              </div>
+              </div>
+      </div>
+</div>
+</div>
+</div>
+
+
+</section>
+
+
+
+ <br><br><br><br> <br><br><br><br>
+
+
+<div class="sect2">
+  <p class="car" style="text-align: left;">Fresh <span class="logo">Items</span></p>
+  <hr class="hr1" style="margin-left:0% ; margin-right: 90% ;">
+  <hr class="hr2" style="margin-left:0% ; margin-right: 92%; ">
+  
+  <p class="moto" style="text-align: left;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum aspernatur incidunt quasi ?</p>
+
+  <div class="fluid">
+  
+  <div class="slider row ">
+    <div class="col-md-12">
+    <div class="product-top">
+        <a href=""><img src="images/product1.png"></a> 
+        <div class="overlay-right">
+        <button type="button" class="btn btn-secondary" title="Quick Shop">
+           <i class="fa fa-eye"></i> 
+        </button>
+        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+           <i class="fa fa-heart-o"></i> 
+        </button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart">
+           <i class="fa fa-shopping-cart"></i> 
+        </button>
+        </div>
+    </div>
+    <div class="product-bottom text-center">
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star-half-o"></i>  
+        <h3>ENGINE</h3>
+        <h5>$40.00</h5>
+    </div>
+    </div>
+        
+    <div class="col-md-12">
+    <div class="product-top">
+        <a href=""><img src="images/product2.png"></a> 
+        <div class="overlay-right">
+        <button type="button" class="btn btn-secondary" title="Quick Shop">
+           <i class="fa fa-eye"></i> 
+        </button>
+        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+           <i class="fa fa-heart-o"></i> 
+        </button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart">
+           <i class="fa fa-shopping-cart"></i> 
+        </button>
+        </div>
+    </div>
+    <div class="product-bottom text-center">
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+        <h3>COOLER</h3>
+        <h5>$50.00</h5>
+    </div>
+    </div>
+        
+    <div class="col-md-12">
+    <div class="product-top">
+        <a href=""><img src="images/product3.png"></a> 
+        <div class="overlay-right">
+        <button type="button" class="btn btn-secondary" title="Quick Shop">
+           <i class="fa fa-eye"></i> 
+        </button>
+        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+           <i class="fa fa-heart-o"></i> 
+        </button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart">
+           <i class="fa fa-shopping-cart"></i> 
+        </button>
+        </div>
+    </div>
+    <div class="product-bottom text-center">
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+        <h3>PIPES</h3>
+        <h5>$500.00</h5>
+    </div>
+    </div>
+     
+    <div class="col-md-12">
+    <div class="product-top">
+        <a href=""><img src="images/product4.png"></a> 
+        <div class="overlay-right">
+        <button type="button" class="btn btn-secondary" title="Quick Shop">
+           <i class="fa fa-eye"></i> 
+        </button>
+        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+           <i class="fa fa-heart-o"></i> 
+        </button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart">
+           <i class="fa fa-shopping-cart"></i> 
+        </button>
+        </div>
+    </div>
+    <div class="product-bottom text-center">
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star-half-o"></i>  
+      <i class="fa fa-star-o"></i>  
+        <h3>GEARS</h3>
+        <h5>$300.00</h5>
+    </div>
+    </div> 
+        
+    <div class="col-md-12">
+    <div class="product-top">
+        <a href=""><img src="images/product1.png"></a> 
+        <div class="overlay-right">
+        <button type="button" class="btn btn-secondary" title="Quick Shop">
+           <i class="fa fa-eye"></i> 
+        </button>
+        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+           <i class="fa fa-heart-o"></i> 
+        </button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart">
+           <i class="fa fa-shopping-cart"></i> 
+        </button>
+        </div>
+    </div>
+    <div class="product-bottom text-center">
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star-half-o"></i>  
+        <h3>ENGINE</h3>
+        <h5>$40.00</h5>
+    </div>
+    </div>
+        
+    <div class="col-md-12">
+    <div class="product-top">
+        <a href=""><img src="images/product2.png"></a> 
+        <div class="overlay-right">
+        <button type="button" class="btn btn-secondary" title="Quick Shop">
+           <i class="fa fa-eye"></i> 
+        </button>
+        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+           <i class="fa fa-heart-o"></i> 
+        </button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart">
+           <i class="fa fa-shopping-cart"></i> 
+        </button>
+        </div>
+    </div>
+    <div class="product-bottom text-center">
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+        <h3>COOLER</h3>
+        <h5>$50.00</h5>
+    </div>
+    </div>
+        
+    <div class="col-md-12">
+    <div class="product-top">
+        <a href=""><img src="images/product3.png"></a> 
+        <div class="overlay-right">
+        <button type="button" class="btn btn-secondary" title="Quick Shop">
+           <i class="fa fa-eye"></i> 
+        </button>
+        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+           <i class="fa fa-heart-o"></i> 
+        </button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart">
+           <i class="fa fa-shopping-cart"></i> 
+        </button>
+        </div>
+    </div>
+    <div class="product-bottom text-center">
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+        <h3>PIPES</h3>
+        <h5>$500.00</h5>
+    </div>
+    </div>
+     
+    <div class="col-md-12">
+    <div class="product-top">
+        <a href=""><img src="images/product4.png"></a> 
+        <div class="overlay-right">
+        <button type="button" class="btn btn-secondary" title="Quick Shop">
+           <i class="fa fa-eye"></i> 
+        </button>
+        <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+           <i class="fa fa-heart-o"></i> 
+        </button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart">
+           <i class="fa fa-shopping-cart"></i> 
+        </button>
+        </div>
+    </div>
+    <div class="product-bottom text-center">
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star"></i>  
+      <i class="fa fa-star-half-o"></i>  
+      <i class="fa fa-star-o"></i>  
+        <h3>GEARS</h3>
+        <h5>$300.00</h5>
+    </div>
+    </div>
+
+    <div class="col-md-12">
+      <div class="product-top">
+          <a href=""><img src="images/product4.png"></a> 
+          <div class="overlay-right">
+          <button type="button" class="btn btn-secondary" title="Quick Shop">
+             <i class="fa fa-eye"></i> 
+          </button>
+          <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+             <i class="fa fa-heart-o"></i> 
+          </button>
+              <button type="button" class="btn btn-secondary" title="Add to Cart">
+             <i class="fa fa-shopping-cart"></i> 
+          </button>
+          </div>
+      </div>
+      <div class="product-bottom text-center">
+        <i class="fa fa-star"></i>  
+        <i class="fa fa-star"></i>  
+        <i class="fa fa-star"></i>  
+        <i class="fa fa-star-half-o"></i>  
+        <i class="fa fa-star-o"></i>  
+          <h3>GEARS</h3>
+          <h5>$300.00</h5>
+      </div>
+      </div>
+      
+
+      </div>
+          
+   </div>
+  </div>
+  </div>
+  </div>
+ 
+<!-- Comments -->
+
+  <section class="mainCard">
+    <div class="card-holder">
+      <div class="card">
+        <div class="card-body">
+          <div class="c-title"> <h5>VERY QUICK AND REALLY FAST SUPPORT</h5></div> 
+          <div class="c-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellat quae porro, fugit temporibus perspiciatis.</div>
+        <div class="card-profile">
+            <img class="profile-image" src="images/asif.jpg" alt="">
+            <div class="card-profile-info">
+                <h5 class="profile-name"> Asif Islam</h5>
+                <p class="profile-comp">PRO at PUBG pvt. ltd.</p>
+                <div class="profile-rating">
+                    <i class="fa fa-star"></i>  
+                    <i class="fa fa-star"></i>  
+                    <i class="fa fa-star"></i>  
+                    <i class="fa fa-star"></i>  
+                    <i class="fa fa-star-half-o"></i> </div>    
+            </div>
+        </div>
+        </div>
+        </div>
+      
+    
+      <div class="card">
+        <div class="card-body">
+          <div class="c-title"> <h5>DONE IN THREE MONTHS , AWESOME</h5></div> 
+          <div class="c-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellat quae porro, fugit temporibus perspiciatis.</div>
+        <div class="card-profile">
+            <img class="profile-image" src="images/shad.jpg" alt="">
+            <div class="card-profile-info">
+                <h5 class="profile-name"> Shad Hussain</h5>
+                <p class="profile-comp"> Owner at Lagger And Echo pvt. </p>
+                <div class="profile-rating">
+                    <i class="fa fa-star"></i>  
+                    <i class="fa fa-star"></i>  
+                    <i class="fa fa-star"></i>  
+                    <i class="fa fa-star"></i>  
+                    <i class="fa fa-star-o"></i> </div>    
+            </div>
+        </div>
+        </div>
+        </div>
+    
+    
+        <div class="card">
+          <div class="card-body">
+            <div class="c-title"> <h5>JUST FABULOUS THEME FOR MY ROVER</h5></div> 
+            <div class="c-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellat quae porro, fugit temporibus perspiciatis.</div>
+          <div class="card-profile">
+              <img class="profile-image" src="images/yahya.jpg" alt="">
+              <div class="card-profile-info">
+                  <h5 class="profile-name"> Syed Yahya Ahmad</h5>
+                  <p class="profile-comp">Learning Video Editing </p>
+                  <div class="profile-rating">
+                      <i class="fa fa-star"></i>  
+                      <i class="fa fa-star"></i>  
+                      <i class="fa fa-star"></i>  
+                      <i class="fa fa-star"></i>  
+                      <i class="fa fa-star-half-o"></i> </div>    
+              </div>
+          </div>
+          </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <br><br>
+  
+<!-- Blog -->
+
+  <div class="sect3">
+    <p class="car" style="text-align: center;">Latest <span class="logo">Blog</span> Post </p>
+    <hr class="hr1" style="margin-left: 45% ; margin-right: 45% ;">
+    <hr class="hr2" style="margin-left: 46% ; margin-right: 46%; ">
+    
+    <p class="moto" style="text-align: center; margin-right: 30%; margin-left: 30%;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum aspernatur incidunt quasi</p>
+
+</div>
+
+<section class="mainCard2">
+  <div class="card-holder2">
+ 
+    <div class="card2">
+      <div class="card-body2">
+        <div class="image-over">
+          <img class="profile-image2" src="images/not.jpg" alt="">
+          <img class="profile-image3" src="images/mz.jpg" alt="">
+          </div>
+          <div class="card-profile-info2">
+            <p style="text-align: left;" class="date">June 20 ,2020 &nbsp; &nbsp;&nbsp; <a href="" class="comrment"> Comments</a>
+              <h5 class="profile-name"> Ford focus North America will cease for a year. </h5>
+              
+              
+      </div>
+      </div>
+      </div>
+
+      <div class="card2">
+        <div class="card-body2">
+          <div class="image-over">
+            <img class="profile-image2" src="images/not.jpg" alt="">
+            <img class="profile-image3" src="images/natty.jpg" alt="">
+            </div>
+            <div class="card-profile-info2">
+              <p style="text-align: left;" class="date">June 20 ,2020 &nbsp; &nbsp;&nbsp; <a href="#" class="comrment"> Comments</a>
+                <h5 class="profile-name"> Ford focus North America will cease for a year. </h5>
+                
+                
+        </div>
+        </div>
+        </div>
+  
+        <div class="card2">
+          <div class="card-body2">
+            <div class="image-over">
+            <img class="profile-image2" src="images/not.jpg" alt="">
+            <img class="profile-image3" src="images/shaly.jpg" alt="">
+            </div>
+              <div class="card-profile-info2">
+                <p style="text-align: left;" class="date">June 20 ,2020 &nbsp; &nbsp;&nbsp; <a href="#" class="comrment"> Comments</a>
+                  <h5 class="profile-name"> Ford focus North America will cease for a year. </h5>
+                  
+                  
+          </div>
+          </div>
+          </div>
+      </div>
+      </div>
+    </section>
+
+<!-- Companies -->
+
+<section class="choose">
+<p class="why" >Why Choose Us</p>
+<p class="client">OUR PREMIUM CLIENTS</p>
+<p>
+<img class="brand1" src="images/motor.jpg" alt="">
+<img class="brand2" src="images/motor2.jpg" alt="">
+<img class="brand3" src="images/motor3.jpg" alt="">
+<img class="brand4" src="images/motor4.jpg" alt="">
+<img class="brand5" src="images/motor5.jpg" alt="">
+</p>
+</section>
+
+<!-- footer -->
+
+<footer class="footer">
+  <div class="row">
+  <div class="col-md-3">
+    <h3 class="footer-section1-heading">
+      <span class="logo">SHOP</span>SPOT
+    </h3>
+    <p class="footer-section1-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis veritatis ipsum illo maiores ipsa quo ipsam</p>
+    <img class="gp" src="images/app-logo.png" alt="">
+  </div>
+
+  <div class="col-md-2 ">
+  <h3 class="footer-section2-heading">Follow Us</h3>
+
+  <ul class="socials2">
+
+<li><a href=""><i class="fa fa-facebook"></i></a>  Facebook</li>
+<li><a href=""><i class="fa fa-linkedin"></i></a>  Linkedin</li>
+<li><a href=""><i class="fa fa-twitter"></i></a>  Twitter</li>
+<li><a href=""><i class="fa fa-google-plus"></i></a>  Google</li>
+<li><a href=""><i class="fa fa-youtube"></i></a>   Youtube</li>
+</ul>
+  </div>
+
+  <div class="col-md-2">
+    <h3 class="footer-section3-heading">Quick Links</h3>
+    <ul class="quick">
+    <li><a href=""> About US</a></li>
+    <li><a href="">Our Service</a></li>
+    <li><a href="">Blog</a></li>
+    <li><a href="">Suppor Centre</a></li>
+
+    </ul>
+  </div>
+
+  <div class="col-md-5">
+  
+    <form action="" >
+      <div class="newsletter">
+        <h3>Sign Up for Weekly Newsletter</h3><br>
+        <p>We may send you information about related events, webinars, products, services which we believe are important.</p><br>
+      </div>
+    
+     
+    <form>
+      <div class="input-group mb-3 box">
+        <input type="text" class="form-control" placeholder="Enter Your Email Adress Here">
+        <div class="input-group-append">
+          <button class="input-group-text" type="submit" >Submit</button>
+        </div>
+    </form>
+
+    <p> <br>Copyright 2020 &copy; Theme created by <span style="color:red ;">SYED YAHYA AHMAD</span> All Rights Reserved.</p>
+    <a class="gotop" href="#"><i class="fa fa-chevron-up"></i></a>
+  </div>
+  </div>
+  
+  </footer>
+
+
+
+<!-- Script Link -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous"></script> 
+<script src="myScript.js">
+</script>
+</body>
+</html>
